@@ -12,7 +12,7 @@ $(document).ready(function(){
 	function getValue(city){
 		// alert(city);
 		$.ajax({
-			url: 'http://api.apixu.com/v1/current.json?key=fd48aae7884d4ddcbf192605171202&q='+city,
+			url: 'https://api.apixu.com/v1/current.json?key=fd48aae7884d4ddcbf192605171202&q='+city,
 			dataType: 'json',
 			success: function(data){
 				// console.log(data);
